@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BullsAndCows.Data", "BullsA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BullsAndCows.Models", "BullsAndCows.Models\BullsAndCows.Models.csproj", "{609AB98E-0673-4907-861B-2DF4E444C0ED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BullsAndCows.GameLogic", "BullsAndCows.GameLogic\BullsAndCows.GameLogic.csproj", "{AFAE4000-A193-4938-85E1-23E370CF6548}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{609AB98E-0673-4907-861B-2DF4E444C0ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{609AB98E-0673-4907-861B-2DF4E444C0ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{609AB98E-0673-4907-861B-2DF4E444C0ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFAE4000-A193-4938-85E1-23E370CF6548}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFAE4000-A193-4938-85E1-23E370CF6548}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFAE4000-A193-4938-85E1-23E370CF6548}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFAE4000-A193-4938-85E1-23E370CF6548}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

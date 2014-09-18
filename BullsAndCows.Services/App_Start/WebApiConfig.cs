@@ -21,11 +21,6 @@ namespace BullsAndCows.Services
             config.MapHttpAttributeRoutes();
 
             config.Routes.MapHttpRoute(
-                name: "PlayerProfile",
-                routeTemplate: "api/users/{action}",
-                defaults: new { controller = "Account" });
-
-            config.Routes.MapHttpRoute(
                 name: "DefaultApi",
                 routeTemplate: "api/{controller}/{action}/{id}",
                 defaults: new { id = RouteParameter.Optional }

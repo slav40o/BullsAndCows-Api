@@ -7,6 +7,7 @@
         SecondPlayerTurn = 2,
         FirstPlayerWon = 3,
         SecondPlayerWon = 4,
-        Draw
+        Draw = 5,
+        Unfinished = 6
     }
 }

@@ -4,8 +4,11 @@
 
     public class Game
     {
+        public Game() : this("B&C") { }
+
         public Game(string name)
         {
+            this.Id = Guid.NewGuid();
             this.Name = name;
             this.Status = Status.WaitingPlayer;
         }
@@ -20,13 +23,13 @@
 
         public DateTime? Ended { get; set; }
 
-        public int? Password { get; set; }
+        public string Password { get; set; }
 
-        public int FirstPlayerId { get; set; }
+        public string FirstPlayerId { get; set; }
 
         public virtual Player FirstPlayer { get; set; }
 
-        public int SecondPlayerId { get; set; }
+        public string SecondPlayerId { get; set; }
 
         public virtual Player SecondPlayer { get; set; }
     }
